@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:4575",
+  "proxy": "https://portfolio-web-api.azurewebsites.net",
   "name": "frontend-admin",
   "version": "0.1.0",
   "private": true,
