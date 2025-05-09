@@ -11,7 +11,7 @@ const Home =() =>{
     useEffect(() =>
     {
         const fetchTestimonials = async () =>{
-            const response = await fetch('/api/testimonials');
+            const response = await fetch('https://portfolio-web-api.azurewebsites.net/api/testimonials');
             const json = await response.json();
             if(response.ok)
             {
