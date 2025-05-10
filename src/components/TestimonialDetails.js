@@ -8,7 +8,7 @@ const TestimonialDetails = ({testimonial}) =>{
 
 
     const handleClick = async () =>{
-        const response = await fetch('/api/testimonials/'+testimonial._id,{
+        const response = await fetch('https://portfolio-web-api.azurewebsites.net/api/testimonials/'+testimonial._id,{
             method:'DELETE'
         })
 

@@ -15,7 +15,7 @@ const handleSubmit = async (e) =>{
     e.preventDefault();
 
     const testimonial = {testimony,companyName,user_id}
-    const response = await fetch('/api/testimonials',{
+    const response = await fetch('https://portfolio-web-api.azurewebsites.net/api/testimonials',{
         method:'POST',
         body:JSON.stringify(testimonial),
         headers:{
